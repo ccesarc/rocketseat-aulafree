@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+
+    <style>
+        ul {
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            font-style: sans-serif;
+        }
+
+        li {
+            clear: both;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 80px;
+            float: left;
+            margin-right: 10px;
+        }
+    </style>
+
 </head>
 
 <body>
-    <button id="novotodo">Adicionar todo</button>
+    <form id="repo-form">
+        <input type="text" name="repositorio" id="">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="repo-list">
+    </ul>
 
     <script src="bundle.js"></script>
 </body>
