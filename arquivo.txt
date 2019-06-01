@@ -4,3 +4,10 @@ yarn add @babel/preset-env
 yarn add @babel/core
 
 yarn add @babel/plugin-proposal-object-rest-spread
+
+
+webpac
+
+yarn add webpack webpack-cli -D
+
+yarn add babel-loader -D
