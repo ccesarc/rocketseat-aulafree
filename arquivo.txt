@@ -1,3 +1,5 @@
+yarn dev
+
 yarn init
 yarn add @babel/cli
 yarn add @babel/preset-env
@@ -5,9 +7,20 @@ yarn add @babel/core
 
 yarn add @babel/plugin-proposal-object-rest-spread
 
+"dev": "babel ./main.js -o bundle.js -w"
+"dev": "webpack --mode=development -w"
 
 webpac
 
 yarn add webpack webpack-cli -D
 
 yarn add babel-loader -D
+
+yarn add webpack-dev-server -D
+
+//async await
+yarn add @babel/plugin-transform-async-to-generator
+
+yarn add @babel/polyfill -D
+
+yarn add axios
